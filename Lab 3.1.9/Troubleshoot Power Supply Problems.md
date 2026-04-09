@@ -53,7 +53,7 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
 
   <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/c91a924d-0d47-48e0-8636-99df2b24f534" />
 
-  Tested the theory by replacing the PSU and rerunning the Power supply tester. Observed stable readings.
+  Tested the theory by replacing the PSU and rerunning the Power Supply Tester. Observed stable readings.
 
   <h3>4. Establish a Plan of Action</h3>
 
