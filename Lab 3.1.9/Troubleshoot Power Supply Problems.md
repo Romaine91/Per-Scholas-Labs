@@ -74,9 +74,9 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
  <ul>
   <li>Place the Power Supply Tester on the workbench.</li>
   <li>Unplug the computer.</li>
-  <li>Disconnect power to internal hard drives</li>
+  <li>Disconnect power to internal hard drives.</li>
   </ul>
-<li>Test the power supply</li>
+<li>Test the power supply.</li>
   <ul>
    <li>Transfer the Connector, Power Supply, 20+4 pin, and Connector, Power Supply, 4-pin processor to the power supply tester.</li>
    <li>Attach a Connector, SATA 15-pin power connector to the power supply tester.</li>
