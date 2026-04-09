@@ -34,7 +34,7 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
 6. Document Procedure
    
 <h2>Directions</h2>
-<h4>You've received a service request from an employee experiencing a critical issue where their system shuts down unexpectedly before it can fully boot. You believe the power supply unit (PSU) may be at fault. If it does need to be replaced, select one that includes PCIe connectors for future hardware updates. Your task is to test the existing PSU and, if needed, select a compatible replacement that meets both current and future needs.</h4> 
+<h4>"You've received a service request from an employee experiencing a critical issue where their system shuts down unexpectedly before it can fully boot. You believe the power supply unit (PSU) may be at fault. If it does need to be replaced, select one that includes PCIe connectors for future hardware updates. Your task is to test the existing PSU and, if needed, select a compatible replacement that meets both current and future needs."</h4> 
 
  
  <h3>1. Identify The Problem</h3>
