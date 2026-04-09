@@ -41,7 +41,7 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
  
   <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/2f68fbc3-8949-43fa-945f-3d4b99bf431a" />
 
-   Attempted to power on the PC to verify there was no connection. (Computer failed to turn on)
+   Attempted to power on the PC to verify there was no connection. Received "Computer failed to turn on" error message.
 
  <h3>2. Establish A Theory</h3>
 
