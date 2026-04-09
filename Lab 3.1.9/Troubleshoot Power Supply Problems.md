@@ -1,4 +1,4 @@
- <p align="center">
+<p align="center">
 <img src="https://www.msudenver.edu/wp-content/uploads/2025/11/CompTIA-A-Plus_CompTIA-Computing-Technology-Industry-Association_A-Plus-scaled.png" alt="osTicket logo"/>
 </p>
 
@@ -69,31 +69,24 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
 
    <h3>6. Document Procedure</h3>
 
-* Attempt to boot the computer to verify the issue, and then complete these steps   
-Place the Power Supply Tester on the workbench.    
-Unplug the computer.
-Disconnect power to internal hard drives
-
-* Test the power supply
-Transfer the Connector, Power Supply, 20+4 pin, and Connector, Power Supply, 4-pin processor to the power supply tester.
-Attach a Connector, SATA 15-pin power connector to the power supply tester.
-Plug the computer in and view the Power Supply Tester results.
-
-*   Unplug the power cable from the computer and move the bad power supply to the workbench next to the tester. Leave the cables connected to the tester.
-
-*  Select and install a new power supply:
-
-Select a power supply from the inventory that has the same 20+4 and 4-pin connectors and the 6-pin PCIe connectors.
-Reconnect the Connector, Power Supply, 20+4 pin and Connector, Power Supply, 4-pin to the motherboard and Connector, SATA 15-pin to each drive.
-
-* Plug the computer in, turn on the power supply, and then start the computer.
-   
-
-     
-
-      
-
-
-   
-
-
+<ul>
+<li>Attempt to boot the computer to verify the issue, and then complete these steps:</li>
+ <ul>
+  <li>Place the Power Supply Tester on the workbench.</li>
+  <li>Unplug the computer.</li>
+  <li>Disconnect power to internal hard drives</li>
+  </ul>
+<li>Test the power supply</li>
+  <ul>
+   <li>Transfer the Connector, Power Supply, 20+4 pin, and Connector, Power Supply, 4-pin processor to the power supply tester.</li>
+   <li>Attach a Connector, SATA 15-pin power connector to the power supply tester.</li>
+   <li>Plug the computer in and view the Power Supply Tester results.</li>
+  </ul>
+<li>Unplug the power cable from the computer and move the bad power supply to the workbench next to the tester. Leave the cables connected to the tester.</li>
+<li>Select and install a new power supply:</li>
+  <ol type="a">
+   <li>Select a power supply from the inventory that has the same 20+4 and 4-pin connectors and the 6-pin PCIe connectors.</li>
+   <li>Reconnect the Connector, Power Supply, 20+4 pin and Connector, Power Supply, 4-pin to the motherboard and Connector, SATA 15-pin to each drive.</li>
+  </ol>
+<li>Plug the computer in, turn on the power supply, and then start the computer.</li>
+</ul>
