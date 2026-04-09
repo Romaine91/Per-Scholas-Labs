@@ -17,7 +17,7 @@ This tutorial outlines Troubleshooting Power Supply Problems<br />
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11 </b> (25H2)
+- <b>Windows 11 </b> (25H2)
 
 <h2> Troubleshooting Methodology</h2>
 
