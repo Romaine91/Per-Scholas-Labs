@@ -54,7 +54,7 @@ This tutorial outlines Access Control List configuration<br />
 
   <img width="850" height="450" alt="Screenshot 2026-04-09 155651" src="https://github.com/user-attachments/assets/6bc0b028-3ec6-4db3-a79e-1a9c76586e07" />
 
-   Changed R1's configurationd and access list configuration to allow PC1 to send traffic outside of the local network.
+   Changed R1's configuration and access list configuration to allow PC1 to send traffic outside of the local network.
 
    <h3>5. Verify Functionality</h3>
 
