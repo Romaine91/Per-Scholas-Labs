@@ -65,23 +65,25 @@ This tutorial outlines Access Control List configuration<br />
    <h3>6. Document Procedure</h3>
 
 <ul>
-<li>Attempt to boot the computer to verify the issue, and then complete these steps:</li>
+<li>Ping devices on the local network to verify connectivity.</li>
  <ul>
-  <li>Place the <b>Power Supply Tester</b> on the workbench.</li>
-  <li>Unplug the computer.</li>
-  <li>Disconnect power to internal hard drives.</li>
-  </ul>
-<li>Test the power supply.</li>
+  <li>From the command prompt of <b>PC1</b>, ping <b>PC2</b>.</li>
+  <li>From the command prompt of <b>PC1</b>, ping <b>PC3</b>.</li>
+ </ul>
+<li>Ping devices on remote networks to test ACL functionality.</li>
   <ul>
-   <li>Transfer the <b>Connector, Power Supply, 20+4 pin</b>, and <b>Connector, Power Supply, 4-pin processor</b> to the power supply tester.</li>
-   <li>Attach a <b>Connector, SATA 15-pin</b> power connector to the power supply tester.</li>
-   <li>Plug the computer in and view the Power Supply Tester results.</li>
+   <li>From the command prompt of <b>PC1</b>, ping <b>PC4</b>.</li>
+   <li>From the command prompt of <b>PC1</b>, ping <b>DNS Server</b>.</li>
   </ul>
-<li>Unplug the power cable from the computer and move the bad power supply to the workbench next to the tester. Leave the cables connected to the tester.</li>
-<li>Select and install a new power supply:</li>
-  <ol type="a">
-   <li>Select a power supply from the inventory that has the same 20+4 and 4-pin connectors and the 6-pin PCIe connectors.</li>
-   <li>Reconnect the <b>Connector, Power Supply, 20+4 pin</b> and <b>Connector, Power Supply, 4-pin</b> to the motherboard and <b>Connector, SATA 15-pin</b> to each drive.</li>
-  </ol>
-<li>Plug the computer in, turn on the power supply, and then start the computer.</li>
+<li>Use show commands to investigate the ACL configuration.</li>
+   <ul>
+      <li>Use the <b>show run</b> and <b>show access-lists</b> commands to view the currently configured ACLs.</li>
+      <li>The first line of the ACL prevents any packets originating in the <b>192.168.10.0/24</b> network. The second line of the ACL allows all other <b>ip</b> traffic from <b>any</b> source to transverse the router.</li>
+   </ul>
+<li>Remove access list 11 from the configuration.</li>
+   <ul>
+      <li>Under the Serial0/0/0 interface, remove access-list 11, previously applied to the interface as an <b>outgoing</b> filter.</li>
+      <li>In global configuration mode, remove the ACL.</li>
+      <li>Verify that <b>PC1</b> can now ping the <b>DNS Server</b> and <b>PC4</b>.</li>
+   </ul>
 </ul>
