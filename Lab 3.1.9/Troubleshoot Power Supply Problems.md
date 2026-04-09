@@ -1,9 +1,9 @@
-**# osticket- <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+ <p align="center">
+<img src="https://www.msudenver.edu/wp-content/uploads/2025/11/CompTIA-A-Plus_CompTIA-Computing-Technology-Industry-Association_A-Plus-scaled.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Intake - Resolution</h1>
-This tutorial outlines the open-source help desk ticketing system osTicket.<br />
+<h1> Troubleshoot Power Supply Problems</h1>
+This tutorial outlines Troubleshooting Power Supply Problems<br />
 
 
 
@@ -11,44 +11,89 @@ This tutorial outlines the open-source help desk ticketing system osTicket.<br /
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- CompTIA CertMaster
+- Virtual Lab
+- Internet Connection
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11 </b> (25H2)
 
-<h2> Ticket Lifecycle Stages</h2>
+<h2> Troubleshooting Methodology</h2>
 
-. Intake
+1. Identify The Problem
 
-. Assignment and Communication
+2. Establish A Theory
 
-. Working the Issue
+3. Test Theory
 
-. Resolution
+4. Establish A Plan of Action
 
-<h2>Lifecycle Stages</h2>
+5. Verify Functionality
 
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/863c9879-3f69-4384-95cc-804466b5ec38)
+6. Document Procedure
+   
+<h2>Directions</h2>
+<h4>You've received a service request from an employee experiencing a critical issue where their system shuts down unexpectedly before it can fully boot. You believe the power supply unit (PSU) may be at fault. If it does need to be replaced, select one that includes PCIe connectors for future hardware updates. Your task is to test the existing PSU and, if needed, select a compatible replacement that meets both current and future needs.</h4> 
 
-Open and create a ticket
+ 
+ <h3>1. Identify The Problem</h3>
+ 
+  <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/2f68fbc3-8949-43fa-945f-3d4b99bf431a" />
 
-Go to the end user URl to create multiple test helpdesk tickets
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/ee91aba0-c479-43db-9f73-42b9a2699c69)
+   Attempted to power on the PC to verify there was no connection. (Computer failed to turn on)
 
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/88ab8897-b130-4a36-ae04-e71b003335ef)
+ <h3>2. Establish A Theory</h3>
 
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/e7b44260-0442-4ed3-87b1-40a863ae75f9)
+   <img width="850" height="450" alt="Screenshot 2026-04-09 122510" src="https://github.com/user-attachments/assets/9af93654-25a7-49a0-8bc3-cf284bef7d3a" />
+  
+   Observed the Power supply tester and noticed fluctuating readings with an occasional LL code. The "L" indicates a Low reading, meaning the tester detects voltage below the minimum threshold or a missing signal. This typically points to a fault with the PG (Power Good) signal.
 
-After creating the tickets - log into the "agent panel" -> assign each ticket a "priority level", "department", & "SLA" -> communicate with the agent via the "reply section" -> post changes. You should now see the changes you made in the main ticket queue
+ <h3>3. Test The Theory</h3>
 
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/f10044e5-eb49-4003-af32-3152834d33f9)
+  <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/c91a924d-0d47-48e0-8636-99df2b24f534" />
 
-When working and resolving the issue, update the ticket to communicate any status changes
+  Tested the theory by replacing the PSU and rerunning the Power supply tester. Observed stable readings.
 
-![image](https://github.com/Romaine91/osticket-prereqs/assets/173863740/85ab4059-f86c-428b-a2f5-ac1ad1a72f16)
+  <h3>4. Establish a Plan of Action</h3>
+
+  <img width="850" height="450" alt="Screenshot 2026-04-09 123515" src="https://github.com/user-attachments/assets/d8fd29b5-234f-42c5-98b9-4839e0be92b2" />
+
+   Replaced the power supply unit and reconnected the power cables.
+
+   <h3>5. Verify Functionality</h3>
+
+   <img width="850" height="450" alt="Screenshot 2026-04-09 123615" src="https://github.com/user-attachments/assets/88fc76ac-0cd8-4730-8a8f-08f3a1e48515" />
+
+   Verified the function of the PC by powering on and logging in to the desktop screen.
+
+   <h3>6. Document Procedure</h3>
+
+* Attempt to boot the computer to verify the issue, and then complete these steps   
+Place the Power Supply Tester on the workbench.    
+Unplug the computer.
+Disconnect power to internal hard drives
+
+* Test the power supply
+Transfer the Connector, Power Supply, 20+4 pin, and Connector, Power Supply, 4-pin processor to the power supply tester.
+Attach a Connector, SATA 15-pin power connector to the power supply tester.
+Plug the computer in and view the Power Supply Tester results.
+
+*   Unplug the power cable from the computer and move the bad power supply to the workbench next to the tester. Leave the cables connected to the tester.
+
+*  Select and install a new power supply:
+
+Select a power supply from the inventory that has the same 20+4 and 4-pin connectors and the 6-pin PCIe connectors.
+Reconnect the Connector, Power Supply, 20+4 pin and Connector, Power Supply, 4-pin to the motherboard and Connector, SATA 15-pin to each drive.
+
+* Plug the computer in, turn on the power supply, and then start the computer.
+   
+
+     
+
+      
 
 
-After ticket resolution, the ticket will automatically be moved to the "closed folder: tabe. That concludes this lab.
+   
+
+
