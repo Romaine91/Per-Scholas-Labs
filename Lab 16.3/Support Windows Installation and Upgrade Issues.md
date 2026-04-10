@@ -14,7 +14,7 @@ This tutorial outlines the installation of Windows and solving upgrade issues.<b
 <h2>Operating Systems Used </h2>
 
 - <b>Windows 10</b> (22H2)
-- <b>Windows 11</b> (25H2)
+- <b>Windows 11</b> (23H2)
 
 <h2>Tasks:</h2>
 
