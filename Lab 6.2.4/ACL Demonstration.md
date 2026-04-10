@@ -1,8 +1,6 @@
 <p align="center">
-<img width="250" height="250" src=<img width="227" height="179" alt="Cisco-Packet-Tracer-CPT-2383778276" src="https://github.com/user-attachments/assets/d9e74e5e-b05e-4484-8eee-3e9d7e683a5c" />
-/>
+  <img width="250" height="250" alt="Cisco-Packet-Tracer-CPT-2383778276" src="https://github.com/user-attachments/assets/d9e74e5e-b05e-4484-8eee-3e9d7e683a5c" />
 </p>
-
 <h1> ACL Demonstration</h1>
 This tutorial outlines Access Control List configuration<br />
 
