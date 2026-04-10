@@ -30,7 +30,7 @@ This tutorial outlines Managing IaaS VMs in Azure that run Windows Server<br />
 6. Document Procedure
    
 <h2>Directions</h2>
-<!-- <h4>"Insert lab directions here."</h4> 
+<!-- <h4>"Insert lab directions here."</h4> -->
 
  
  <h3>1. Identify The Problem</h3>
