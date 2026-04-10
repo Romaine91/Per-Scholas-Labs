@@ -23,7 +23,6 @@ This tutorial outlines the installation of Windows and solving upgrade issues.<b
 2. Resolve Boot Issue
 
 <h2>Task #1 Directions</h2>
-<!-- <h4>"Insert lab directions here."</h4> -->
 "Perform an in-place upgrade on HOMEPC to install Windows 11 Pro.
 Verify whether a hardware upgrade is required:
 
@@ -76,26 +75,50 @@ Allow the machine to install Windows 11. The install will restart the machine a 
 
 While signed in as Sam, navigate to Run by either using Win+R, right clicking the Start Menu and selecting Run from the list, or searching for Run in the search menu. Use the command "winver" to verify the Windows version of the machine is now Windows 11.
 
-<!--
-<ul>
-<li>Attempt to boot the computer to verify the issue, and then complete these steps:</li>
- <ul>
-  <li>Place the <b>Power Supply Tester</b> on the workbench.</li>
-  <li>Unplug the computer.</li>
-  <li>Disconnect power to internal hard drives.</li>
-  </ul>
-<li>Test the power supply.</li>
-  <ul>
-   <li>Transfer the <b>Connector, Power Supply, 20+4 pin</b>, and <b>Connector, Power Supply, 4-pin processor</b> to the power supply tester.</li>
-   <li>Attach a <b>Connector, SATA 15-pin</b> power connector to the power supply tester.</li>
-   <li>Plug the computer in and view the Power Supply Tester results.</li>
-  </ul>
-<li>Unplug the power cable from the computer and move the bad power supply to the workbench next to the tester. Leave the cables connected to the tester.</li>
-<li>Select and install a new power supply:</li>
-  <ol type="a">
-   <li>Select a power supply from the inventory that has the same 20+4 and 4-pin connectors and the 6-pin PCIe connectors.</li>
-   <li>Reconnect the <b>Connector, Power Supply, 20+4 pin</b> and <b>Connector, Power Supply, 4-pin</b> to the motherboard and <b>Connector, SATA 15-pin</b> to each drive.</li>
-  </ol>
-<li>Plug the computer in, turn on the power supply, and then start the computer.</li>
-</ul>
--->
+<h2>Task #2 Directions</h2>
+"While you were performing the upgrade on HOMEPC, Sam reports a sudden problem with the LAPTOP machine and that "Nothing seems to work." You consult your system notes, and learn that an image backup was made of this machine and is stored on a local disk separate from the system disk, but no current data backup is available. Diagnose and resolve the issue.
+
+Use the following accounts to access machines and services on the local network that might be relevant to resolving the issue."
+
+<table>
+  <tr>
+    <th>Host</th>
+    <th>User</th>
+    <th>Password</th>
+  </tr>
+  <tr>
+    <td>LAPTOP</td>
+    <td>Sam</td>
+    <td>Pa55w0rd!</td>
+  </tr>
+</table>
+
+<h3>1. Attempt to Boot Up Laptop</h3>
+ 
+<img width="850" height="450" alt="Screenshot 2026-04-10 154508" src="https://github.com/user-attachments/assets/ff8583d2-fbd5-4d70-8334-bbab4a63ebcc" />
+
+Attempt to log in as Sam and observe the machine is unable to start. The machine attempts to repair, but is unsuccessful. Select "Advanced options".
+
+ <h3>2. Navigate to Troubleshoot</h3>
+
+<img width="850" height="450" alt="Screenshot 2026-04-10 154742" src="https://github.com/user-attachments/assets/eedb24fe-598e-4d3c-b2d3-2e7ce59fb24d" />
+
+In the "Choose an Option" menu, select "Troubleshoot". Selected "Advanced options", then "See more recovery options". Finally, select "System Image Recovery".
+
+ <h3>3. Re-Image Computer</h3>
+
+<img width="850" height="450" alt="Screenshot 2026-04-10 154846" src="https://github.com/user-attachments/assets/bb48f2a0-17e7-47f4-a8c3-c07f90d31b44" />
+
+In the "Re-image your computer" wizard, select "Use the latest available system image". The location of this backup will be within the D: drive named BACKUP. Click next. Then, click next again on the "Choose additional restore options" menu. Select "Yes" if prompted, then select "Finish".
+
+  <h3>4. Allow System to Re-Image</h3>
+
+<img width="850" height="450" alt="Screenshot 2026-04-10 155313" src="https://github.com/user-attachments/assets/7c710f38-a271-4f1b-aa82-505201f85722" />
+
+The machine will now restore back to the latest backup image. When the process has completed, log into the machine as Sam, then navigate to File Explorer, then the Documents tab.
+
+ <h3>4. Verify WEBSITE PROJECT was Restored</h3>
+
+<img width="850" height="450" alt="Screenshot 2026-04-10 155528" src="https://github.com/user-attachments/assets/ca26045f-af21-4233-981e-f04deed7abe7" />
+
+Within the Documents tab, Sam should now have access to their folder, "WEBSITE PROJECT".
