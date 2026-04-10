@@ -30,41 +30,39 @@ This tutorial outlines Managing IaaS VMs in Azure that run Windows Server<br />
 6. Document Procedure
    
 <h2>Directions</h2>
-<h4>"You've received a service request from an employee experiencing a critical issue where their system shuts down unexpectedly before it can fully boot. You believe the power supply unit (PSU) may be at fault. If it does need to be replaced, select one that includes PCIe connectors for future hardware updates. Your task is to test the existing PSU and, if needed, select a compatible replacement that meets both current and future needs."</h4> 
+<!-- <h4>"Insert lab directions here."</h4> 
 
  
  <h3>1. Identify The Problem</h3>
  
-  <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/2f68fbc3-8949-43fa-945f-3d4b99bf431a" />
+<!-- Insert Image #1 here.
 
-   Attempted to power on the PC to verify there was no connection. Received "Computer failed to turn on" error message.
+   Explain Step #1 -->
 
  <h3>2. Establish A Theory</h3>
 
-   <img width="850" height="450" alt="Screenshot 2026-04-09 122510" src="https://github.com/user-attachments/assets/9af93654-25a7-49a0-8bc3-cf284bef7d3a" />
+<!-- Insert Image #2 />
   
-   Observed the Power supply tester and noticed fluctuating readings with an occasional LL code. The "L" indicates a Low reading, meaning the tester detects voltage below the minimum threshold or a missing signal. This typically points to a fault with the PG (Power Good) signal.
+   Explain Step #2 -->
 
  <h3>3. Test The Theory</h3>
 
-  <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/c91a924d-0d47-48e0-8636-99df2b24f534" />
-
-  Tested the theory by replacing the PSU and rerunning the Power Supply Tester. Observed stable readings.
+<!-- Insert Image #3
+  Explain Step #3 -->
 
   <h3>4. Establish a Plan of Action</h3>
 
-  <img width="850" height="450" alt="Screenshot 2026-04-09 123515" src="https://github.com/user-attachments/assets/d8fd29b5-234f-42c5-98b9-4839e0be92b2" />
+<!-- Insert Image #4 />
 
-   Replaced the power supply unit and reconnected the power cables.
+   Explain Step #4 -->
 
    <h3>5. Verify Functionality</h3>
 
-   <img width="850" height="450" alt="Screenshot 2026-04-09 123615" src="https://github.com/user-attachments/assets/88fc76ac-0cd8-4730-8a8f-08f3a1e48515" />
-
-   Verified the function of the PC by powering on and logging in to the desktop screen.
+   <!-- Insert Image #5
+   Explain Step #5 -->
 
    <h3>6. Document Procedure</h3>
-
+<!--
 <ul>
 <li>Attempt to boot the computer to verify the issue, and then complete these steps:</li>
  <ul>
@@ -86,3 +84,4 @@ This tutorial outlines Managing IaaS VMs in Azure that run Windows Server<br />
   </ol>
 <li>Plug the computer in, turn on the power supply, and then start the computer.</li>
 </ul>
+-->
