@@ -1,6 +1,6 @@
 <p align="center">
-<img src="https://www.msudenver.edu/wp-content/uploads/2025/11/CompTIA-A-Plus_CompTIA-Computing-Technology-Industry-Association_A-Plus-scaled.png" alt="osTicket logo"/>
-</p>
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/8473599d-5e56-4f65-b929-1f7de9c2107e" />
+
 
 <h1>Manage IaaS Virtual Machines (VMs) in Azure That Run Windows Server</h1>
 This tutorial outlines Managing IaaS VMs in Azure that run Windows Server<br />
@@ -9,59 +9,64 @@ This tutorial outlines Managing IaaS VMs in Azure that run Windows Server<br />
 
 - CompTIA CertMaster
 - Virtual Lab
+- Microsoft Azure
 - Internet Connection
 
 <h2>Operating Systems Used </h2>
 
-- <b>Windows 11 </b> (25H2)
+- <b>Windows 11 </b> (21H2)
 
-<h2> Troubleshooting Methodology</h2>
+<h2>Deployment and Configuration Steps</h2>
 
-1. Identify The Problem
+1. Created A Virtual Machine
 
-2. Establish A Theory
+2. Configured VM Details 
 
-3. Test Theory
+3. Configured VM Disks
 
-4. Establish A Plan of Action
+4. Review Configuration 
 
-5. Verify Functionality
+5. Verify Deployment Completed
 
-6. Document Procedure
    
 <h2>Directions</h2>
-<!-- <h4>"Insert lab directions here."</h4> -->
+You are the network administrator for your company. You have decided to begin the configuration of Azure to help manage your network. As part of this setup, you need to create a virtual server in Azure.
 
  
- <h3>1. Identify The Problem</h3>
+ <h3>1. Created A Virtual Machine</h3>
  
-<!-- Insert Image #1 here.
+<img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/956b5c01-ef2d-40e9-bcbe-535e56941da7" />
 
-   Explain Step #1 -->
 
- <h3>2. Establish A Theory</h3>
+   
 
-<!-- Insert Image #2 />
+
+ <h3>2. Configured VM details</h3>
+
+<img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/147b8295-aad6-4b04-9f5d-42a95800abbf" />
+
   
    Explain Step #2 -->
 
- <h3>3. Test The Theory</h3>
+ <h3>3. Configured VM Disks</h3>
 
-<!-- Insert Image #3
+<img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/a7990b24-7ea5-4045-bdcd-d8c485507912" />
+
   Explain Step #3 -->
 
-  <h3>4. Establish a Plan of Action</h3>
+  <h3>4. Review Configuration</h3>
+  
+<img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/9a6dde3b-57cd-410c-ad5a-3af11dfc4982" />
 
-<!-- Insert Image #4 />
 
    Explain Step #4 -->
 
-   <h3>5. Verify Functionality</h3>
+   <h3>5. Verify Deployment Completed</h3>
 
-   <!-- Insert Image #5
+   <img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/5e81d560-3e0a-450c-ae58-7f638eddc3cf" />
+
    Explain Step #5 -->
 
-   <h3>6. Document Procedure</h3>
 <!--
 <ul>
 <li>Attempt to boot the computer to verify the issue, and then complete these steps:</li>
