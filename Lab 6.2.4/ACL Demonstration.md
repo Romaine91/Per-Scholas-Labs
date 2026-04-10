@@ -1,5 +1,5 @@
 <p align="center">
-<img width="250" height="250" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fhurbad.com%2Fwp-content%2Fuploads%2F2021%2F12%2FCisco-Packet-Tracer.png&sp=1775764871T8f4b04143804874cc5528eb70c99a21b9f83ea76432f774358d69982a4a62e9b" alt="osTicket logo"/>
+<img width="250" height="250" src="https://www.startertutorials.com/blog/cisco-packet-tracer-overview.html"/>
 </p>
 
 <h1> ACL Demonstration</h1>
